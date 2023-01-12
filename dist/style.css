@@ -211,3 +211,54 @@ ul {
   font-weight: 700;
   margin-top: 163px;
 }
+
+.discovers .discover-3, .discovers .discover-2, .discovers .discover-1, .discover-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.discovers .discover-3 .discover-3-text, .discovers .discover-2 .discover-2-text, .discovers .discover-1 .discover-1-text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.discovers .discover-3 .discover-3-subtext, .discovers .discover-2 .discover-2-subtext, .discovers .discover-1 .discover-1-subtext {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 40px 0 44px 0;
+}
+
+.discovers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 100px;
+  padding: 198px 189px 52px 208px;
+  background: #f0f0f0;
+}
+.discovers .discover-1 .discover-1-text {
+  width: 248px;
+}
+.discovers .discover-2 .discover-2-text {
+  width: 272px;
+}
+.discovers .discover-3 .discover-3-text {
+  width: 285px;
+}
+.discovers .discover-img {
+  position: absolute;
+  display: flex;
+  gap: 100px;
+  top: -188px;
+}
+
+.discover-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration: underline;
+}

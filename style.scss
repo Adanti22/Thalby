@@ -227,3 +227,75 @@ ul {
   font-weight: 700;
   margin-top: 163px;
 }
+%discover-stiles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.discover-1 {
+  @extend %discover-stiles;
+}
+
+%discover-text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+%discover-subtext {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 40px 0 44px 0;
+}
+
+.discovers {
+  @include flexible-between();
+  position: relative;
+  gap: 100px;
+  padding: 198px 189px 52px 208px;
+  background: rgba(240, 240, 240, 1);
+  .discover-1 {
+    @extend %discover-stiles;
+    .discover-1-text {
+      @extend %discover-text;
+      width: 248px;
+    }
+    .discover-1-subtext {
+      @extend %discover-subtext;
+    }
+  }
+  .discover-2 {
+    @extend %discover-stiles;
+    .discover-2-text {
+      @extend %discover-text;
+      width: 272px;
+    }
+    .discover-2-subtext {
+      @extend %discover-subtext;
+    }
+  }
+  .discover-3 {
+    @extend %discover-stiles;
+    .discover-3-text {
+      @extend %discover-text;
+      width: 285px;
+    }
+    .discover-3-subtext {
+      @extend %discover-subtext;
+    }
+  }
+  .discover-img {
+    position: absolute;
+    display: flex;
+    gap: 100px;
+    top: -188px;
+  }
+}
+
+.discover-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration: underline;
+}
