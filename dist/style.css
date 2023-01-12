@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header .navigation {
+  padding: 7px 188px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation .menu-img {
+  display: flex;
+  gap: 97px;
+}
+.header .navigation .menu-img .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header .navigation .sm {
+  display: flex;
+  align-items: center;
+}
+.header .navigation .sm .search {
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+.header-main {
+  background: #f0efeb;
+  padding: 9px 60px 24px 188px;
+  width: 100%;
+  display: flex;
+  gap: 59px;
+  align-items: center;
+}
+.header-main .header-content {
+  display: flex;
+  flex-direction: column;
+}
+.header-main .header-content h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 42px;
+}
+.header-main .header-content .header-content-text {
+  font-size: 24px;
+  margin-bottom: 26px;
+}
+.header-main .header-content .header-btn {
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  color: white;
+  padding: 7px 23px 9px 23px;
+  width: 129px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+}
+.about {
+  padding: 60px 188px 248px 188px;
+}
+.about .about-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 52px;
+}
+.about .about-text .our-guides {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.about .about-text .our-guides-text {
+  width: 59.4%;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 47px;
+}
+.about .about-text .our-guides-mini-text {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 88px;
+}
+.about .about-text .our-sellers {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about-cards {
+  display: flex;
+  gap: 63px;
+}
+.about-cards .about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+}
+.about-cards .about-card img {
+  margin-bottom: 27px;
+}
+.about-cards .about-card .about-card-text {
+  font-weight: 700;
+  width: 51%;
+  margin-bottom: 17px;
+}
+.about-cards .about-card .about-card-price {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.about-cards .about-card .about-card-add {
+  font-weight: 700;
+  text-decoration: underline gray;
+}
+
+.people-society {
+  background: rgba(204, 204, 204, 0.3);
+  padding: 76px 319px 51px 188px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.people-content .people-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+.people-content .people-text {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+.people-content .people-link {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.culture-heritage {
+  background: rgba(204, 204, 204, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  text-align: end;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding: 76px 188px 51px 304px;
+}
+.power-politics {
+  padding: 76px 287px 51px 188px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: rgba(204, 204, 204, 0.3);
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 190px 248px 290px 263px;
+  text-align: center;
+}
+.circles .circles-title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 69px;
+}
+.circles .columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.circles .columns .circle-column {
+  display: flex;
+  flex-direction: column;
+  gap: 111px;
+}
+.circles .columns .circle-column .circle p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 26px;
+}
+
+.circles-down-text {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 163px;
+}
