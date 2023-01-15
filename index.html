@@ -9,10 +9,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="dist/_mobile.css" />
     <title>thalby</title>
   </head>
   <body>
     <header class="wrapper header">
+      <input type="checkbox" id="nav-button" class="nav-inpt" />
+      <label for="nav-button" class="nav-button">
+        <div class="open">
+          <p class="open-item"></p>
+          <p class="open-item"></p>
+          <p class="open-item"></p>
+        </div>
+        <div class="close">
+          <span class="close">&times;</span>
+        </div>
+      </label>
       <nav class="navigation">
         <div class="menu-img">
           <ul class="menu">
@@ -177,12 +189,13 @@
           </div>
         </div>
         <p class="circles-down-text">
-          Each Thalby guide includes interviews with <br />a range of
+          Each Thalby guide includes interviews with <br class="br" />a range of
           fascinating voices, such as
         </p>
       </section>
       <section class="wrapper discovers">
         <div class="discover-1">
+          <img src="img/discover-item-1.svg" class="dis-img-mobile" alt="" />
           <p class="discover-1-text">
             "I don’t like things to be conventional. If it’s too nice, I bring
             disorder."
@@ -193,6 +206,8 @@
           <span class="discover-name">Discover</span>
         </div>
         <div class="discover-2">
+          <img class="dis-img-mobile" src="img/discover-item-2.svg" alt="" />
+
           <p class="discover-2-text">
             "Magic is not magic in the sense that I can just wish for anything."
           </p>
@@ -202,6 +217,8 @@
           <span class="discover-name">Discover</span>
         </div>
         <div class="discover-3">
+          <img class="dis-img-mobile" src="img/discover-item-3.svg" alt="" />
+
           <p class="discover-3-text">
             "I was eight years old when I entered my first competition. I won
             it."
@@ -265,9 +282,7 @@
             </ul>
           </div>
           <div class="contact-footer">
-            <h4 class="contact-title">
-              CONTACT
-            </h4>
+            <h4 class="contact-title">CONTACT</h4>
             <ul class="contact-menu">
               <li>Email hi@thalby.com</li>
               <li>Help</li>

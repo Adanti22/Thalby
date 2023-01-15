@@ -1,0 +1,200 @@
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    width: 400px;
+    padding: 0 10px;
+  }
+  .header {
+    .nav-inpt {
+      display: block;
+      visibility: hidden;
+    }
+    .nav-button {
+      display: flex;
+      width: 100%;
+      .open-item {
+        width: 35px;
+        height: 5px;
+        background-color: #050505;
+        margin: 6px 0;
+      }
+      .close {
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 10;
+      }
+    }
+    .navigation {
+      flex-direction: column;
+      visibility: hidden;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 99%;
+      width: 100%;
+      background: #747474;
+      color: antiquewhite;
+      padding: 50px;
+      font-size: 40px;
+      z-index: 9;
+      .menu-img {
+        flex-direction: column;
+        align-items: center;
+        .menu {
+          flex-direction: column;
+        }
+      }
+    }
+    .header-main {
+      flex-direction: column;
+      padding: 20px;
+      img {
+        width: 90%;
+      }
+    }
+  }
+
+  .about {
+    padding: 20px;
+    .about-text {
+      .our-guides {
+      }
+      .our-guides-text {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .our-guides-mini-text {
+      }
+    }
+    .about-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .people-society {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+    img {
+      width: 90%;
+    }
+  }
+  .culture-heritage {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+    img {
+      width: 90%;
+    }
+  }
+  .power-politics {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+    img {
+      width: 90%;
+    }
+  }
+  .circles {
+    padding: 50px 20px;
+    .circles-title {
+      font-size: 30px;
+    }
+    br {
+      display: block;
+    }
+    .columns {
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 30px;
+      .circle-column {
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+        .circle {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p {
+            font-size: 15px;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+  .people-content {
+    .people-text {
+      font-size: 20px;
+      line-height: 1.3;
+    }
+  }
+  .discovers {
+    padding: 50px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .discover-1 {
+      align-items: center;
+      gap: 10px;
+    }
+    .discover-img {
+      display: none;
+    }
+    .dis-img-mobile {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .form {
+    padding: 50px 20px;
+    br {
+      display: none;
+    }
+  }
+  .footer {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 40px;
+    .footer-cont {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      .about-contact {
+        .about-footer {
+          .about-title {
+            font-size: 30px;
+          }
+        }
+
+        .contact-footer {
+          .contact-title {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+    .about-contact {
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+}
+
+.nav-inpt:checked ~ .navigation {
+  visibility: visible;
+}
+.nav-inpt:checked > .nav-button .open {
+  visibility: hidden;
+}
