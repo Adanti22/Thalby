@@ -17,12 +17,19 @@ ul {
   margin: 0 auto;
 }
 .header {
+  .nav-inpt {
+    display: none;
+  }
+  label {
+    display: none;
+  }
   .navigation {
     padding: 7px 188px;
     @include flexible-between();
     .menu-img {
       display: flex;
       gap: 97px;
+
       .menu {
         @include flexible-between();
         gap: 28px;
@@ -418,4 +425,7 @@ ul {
     text-align: center;
     color: rgba(255, 255, 255, 1);
   }
+}
+.dis-img-mobile{
+  display: none;
 }

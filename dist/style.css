@@ -14,6 +14,12 @@ ul {
   margin: 0 auto;
 }
 
+.header .nav-inpt {
+  display: none;
+}
+.header label {
+  display: none;
+}
 .header .navigation {
   padding: 7px 188px;
   display: flex;
@@ -363,4 +369,8 @@ ul {
   text-align: center;
   text-align: center;
   color: white;
+}
+
+.dis-img-mobile {
+  display: none;
 }
